@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="styles.css ">
+
+</head>
+	<body>
+			<div id="scorestyle">
+				<h2>Scores</h2>
+				<ul id="padding"></ul>
+				<button id="Remove">Clear</button>
+			</div>
+		<div class="container1">
+		<h1><span id="player1">0</span> - <span id="player2">0</span></h1>
+
+		<p id="tagline">Playing to : <span id="scoredisplay">5</span><p>
+		</div>
+
+			<div class="container1">
+			<div class="number-input">
+					<button id="trash" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+
+					<input type="number" name="quantity" value=" " class="quantity" placeholder="0" min="0">
+
+					<button id="trash2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+				</div>
+			</div>
+
+
+			<div class="container1">
+
+				
+				<button class="playerbuttons" id="player1b">Player One</button>
+				<button class="playerbuttons" id="player2b">Player Two</button>
+				<button class="playerbuttons" id="reset">Reset</button>
+			</div>
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
