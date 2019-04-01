@@ -1,2 +1,2 @@
 # score-keeper-app
-A mini score-keeper app with a log which displays score history
+A mini score-keeper app which logs your score history
